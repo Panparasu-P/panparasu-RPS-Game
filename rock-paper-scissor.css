@@ -129,3 +129,31 @@ img {
     width: 70px;
   }
 }
+@media screen and (max-width: 402px) {
+  img{
+    width: 60px;
+  }
+  .js-reset, .js-autoPlay{
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 382px) {
+
+  img{
+    width: 55px;
+  }
+  .js-score{
+  font-size: 15px;
+  font-weight: bold;
+}
+}
+@media screen and (max-width: 358px) {
+
+  img{
+    width: 45px;
+  }
+  .js-score{
+  font-size: 15px;
+  font-weight: bold;
+}
+}
